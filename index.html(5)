@@ -1,0 +1,46 @@
+01 ) . ressume 
+ <html>
+   <body>
+      <script>
+        let resume = {
+            name : "Suresh kumar B",
+            age : 23,
+            email : "ssureshkumar0208@gmail.com",
+            phone : "9500563554",
+            linked in : https://www.linkedin.com/in/suresh-kumar-b-95b26a212l ,
+            programing skills : ["java script" , "HTML", "Full stack development"],
+            soft skills : "Problem solving","Leadertship","Time management",
+            for (let i = 0; i < resume.skills.length; i++) {
+             console.log(resume.skills[i]);
+            }
+            academic details : [
+                       {
+                              studies : "B.E"("mechanical engineering at M.kumarasamy college of engineering"),
+                              year   : 2020-2024 ,
+                              percentage : 74 %
+                       },
+                       {
+                              studies : "HSE"(" at P.A Vidya Bhavan Hr Sec School"),
+                              year   : 2016-2018,
+                              percentage : 60 %
+
+   
+                       },
+                       {
+                              studies : "SSLC"(" at P.A Vidya Bhavan Hr Sec School"),
+                              year   : 2018-2020,
+                              percentage : 60 %
+
+   
+                       }
+            ]   
+            language known : ["Tamil","English(VANTAGE level in cambridge university)"],
+            projects : "Automatic Ironing And Folding Machine","Automatic Hand Brake System",
+            intenship : "TNPL at Velauthampalayam-karur on sep-2023",
+            Experience : "Freasher",
+            Hobbies : "reading books","gardening","playing chess",
+            }
+            console.log(resume) 
+        </script>
+    </body>
+</html>
